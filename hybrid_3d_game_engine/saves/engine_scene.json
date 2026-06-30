@@ -1,0 +1,28 @@
+{
+  "id": "root",
+  "name": "WorldRoot",
+  "kind": "root",
+  "position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "props": {},
+  "children": [
+    {
+      "id": "cube_1",
+      "name": "Cube",
+      "kind": "mesh",
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "props": {
+        "mesh": "cube",
+        "material": "simple"
+      },
+      "children": []
+    }
+  ]
+}

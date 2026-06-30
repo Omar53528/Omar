@@ -1,0 +1,60 @@
+{
+  "player": {
+    "x": 0.0,
+    "y": 0.0,
+    "health": 100
+  },
+  "enemies": [
+    {
+      "x": 2.9001539646794594,
+      "y": 1.9334359764529727,
+      "health": 45,
+      "kind": "enemy"
+    },
+    {
+      "x": -2.9001539646794594,
+      "y": -1.9334359764529727,
+      "health": 55,
+      "kind": "enemy"
+    }
+  ],
+  "trees": [
+    {
+      "x": 2.5,
+      "y": 1.2
+    },
+    {
+      "x": -2.2,
+      "y": -1.6
+    },
+    {
+      "x": 1.0,
+      "y": -2.2
+    }
+  ],
+  "terrain": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "kind": "grass"
+    },
+    {
+      "x": 1.0,
+      "y": 0.0,
+      "kind": "grass"
+    },
+    {
+      "x": 0.0,
+      "y": 1.0,
+      "kind": "grass"
+    },
+    {
+      "x": -1.0,
+      "y": 0.0,
+      "kind": "grass"
+    }
+  ],
+  "score": 0,
+  "message": "Welcome to the hybrid world",
+  "save_path": "C:\\Users\\Dell\\Favorites\\Desktop\\learn\\hybrid_3d_game_engine\\python\\..\\saves\\game_save.json"
+}

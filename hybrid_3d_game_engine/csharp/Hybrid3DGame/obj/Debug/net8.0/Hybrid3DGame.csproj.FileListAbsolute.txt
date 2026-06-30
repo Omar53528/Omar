@@ -1,0 +1,14 @@
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\bin\Debug\net8.0\Hybrid3DGame.exe
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\bin\Debug\net8.0\Hybrid3DGame.deps.json
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\bin\Debug\net8.0\Hybrid3DGame.runtimeconfig.json
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\bin\Debug\net8.0\Hybrid3DGame.dll
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\bin\Debug\net8.0\Hybrid3DGame.pdb
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\Hybrid3DGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\Hybrid3DGame.AssemblyInfoInputs.cache
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\Hybrid3DGame.AssemblyInfo.cs
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\Hybrid3DGame.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\Hybrid3DGame.dll
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\refint\Hybrid3DGame.dll
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\Hybrid3DGame.pdb
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\Hybrid3DGame.genruntimeconfig.cache
+C:\Users\Dell\Favorites\Desktop\learn\hybrid_3d_game_engine\csharp\Hybrid3DGame\obj\Debug\net8.0\ref\Hybrid3DGame.dll
