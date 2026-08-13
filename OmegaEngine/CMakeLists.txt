@@ -31,12 +31,15 @@ endif()
 
 # تحديد الملفات المصدرية للمحرك الأساسي
 set(ENGINE_SOURCES
+    # Core
     src/core/Log.cpp
     src/core/Time.cpp
     src/core/Window.cpp
     src/core/Input.cpp
     src/core/FileSystem.cpp
     src/core/Database.cpp
+    
+    # Graphics
     src/graphics/Renderer2D.cpp
     src/graphics/Renderer3D.cpp
     src/graphics/Camera2D.cpp
@@ -44,22 +47,38 @@ set(ENGINE_SOURCES
     src/graphics/Shader.cpp
     src/graphics/Texture.cpp
     src/graphics/Mesh.cpp
+    src/graphics/Material.cpp
     src/graphics/ParticleSystem.cpp
-    src/scripting/OmegaScript.cpp
+    src/graphics/Animation.cpp
+    
+    # Scripting
     src/scripting/OMParser.cpp
     src/scripting/OMCompiler.cpp
+    
+    # Scene & ECS
     src/scene/Scene.cpp
     src/scene/Entity.cpp
     src/scene/Component.cpp
     src/scene/SceneManager.cpp
+    
+    # Assets
     src/assets/AssetManager.cpp
-    # ملفات المحرر الجديدة بـ FLTK
+    
+    # AI
+    src/ai/AI.cpp
+    
+    # Editor (FLTK)
     src/editor/EditorApp.cpp
+    src/editor/EditorWindow.cpp
     src/editor/MainMenuBar.cpp
     src/editor/ViewportGL.cpp
+    src/editor/Viewport.cpp
     src/editor/SceneTreePanel.cpp
     src/editor/PropertiesPanel.cpp
     src/editor/ConsolePanel.cpp
+    src/editor/Toolbar.cpp
+    src/editor/SceneHierarchy.cpp
+    src/editor/ProjectBrowser.cpp
 )
 
 # إنشاء مكتبة المحرك
@@ -138,3 +157,5 @@ message(STATUS "  - Image Support: ${SDL2_IMAGE_FOUND}")
 message(STATUS "  - Audio Support: ${SDL2_MIXER_FOUND}")
 message(STATUS "  - Particle System: Enabled")
 message(STATUS "  - Package System: Enabled (std::filesystem)")
+message(STATUS "  - AI System: Enabled")
+message(STATUS "  - Animation System: Enabled")
