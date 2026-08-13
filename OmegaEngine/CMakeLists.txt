@@ -44,6 +44,7 @@ set(ENGINE_SOURCES
     src/graphics/Shader.cpp
     src/graphics/Texture.cpp
     src/graphics/Mesh.cpp
+    src/graphics/ParticleSystem.cpp
     src/scripting/OmegaScript.cpp
     src/scripting/OMParser.cpp
     src/scripting/OMCompiler.cpp
@@ -107,6 +108,10 @@ target_compile_definitions(OmegaEngine PUBLIC OMEGA_EDITOR_ENABLED)
 add_executable(OMCompiler src/tools/OMCompilerMain.cpp)
 target_link_libraries(OMCompiler PRIVATE OmegaEngine)
 
+# أداة حزم الألعاب (Omega Packager)
+add_executable(OmegaPackager src/tools/PackagerTool.cpp)
+target_link_libraries(OmegaPackager PRIVATE OmegaEngine)
+
 # تطبيق المحرر بـ FLTK
 add_executable(OmegaEditor WIN32 src/main_editor.cpp)
 target_link_libraries(OmegaEditor PRIVATE OmegaEngine)
@@ -116,7 +121,7 @@ add_executable(DemoGame examples/demo_game.cpp)
 target_link_libraries(DemoGame PRIVATE OmegaEngine)
 
 # تثبيت الملفات
-install(TARGETS OmegaEngine OMCompiler OmegaEditor DemoGame
+install(TARGETS OmegaEngine OMCompiler OmegaPackager OmegaEditor DemoGame
     RUNTIME DESTINATION bin
     LIBRARY DESTINATION lib
     ARCHIVE DESTINATION lib
@@ -131,3 +136,5 @@ message(STATUS "  - Physics 2D: ${BOX2D_FOUND}")
 message(STATUS "  - Model Support: ${ASSIMP_FOUND}")
 message(STATUS "  - Image Support: ${SDL2_IMAGE_FOUND}")
 message(STATUS "  - Audio Support: ${SDL2_MIXER_FOUND}")
+message(STATUS "  - Particle System: Enabled")
+message(STATUS "  - Package System: Enabled (std::filesystem)")
