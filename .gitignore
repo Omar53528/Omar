@@ -1,14 +1,22 @@
 ```
-# Build artifacts
-build/
-*.bat
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
 node_modules/
-.venv/
 venv/
+.venv/
 __pycache__/
-*.pyc
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
@@ -24,7 +32,31 @@ __pycache__/
 .vscode/
 .idea/
 
-# OS
-.DS_Store
-Thumbs.db
+# Build directories
+build/
+dist/
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
